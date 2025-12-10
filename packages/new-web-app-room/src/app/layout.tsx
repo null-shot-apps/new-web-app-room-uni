@@ -13,8 +13,16 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Build anything from a chat",
-  description: "Turn chats into apps. Prompt. Ship. Repeat.",
+  title: "Mood Sanctuary - Track Your Emotional Journey",
+  description: "A therapeutic digital sanctuary to capture your day in 3 words + 1 emoji. Track emotional patterns, get AI-powered insights, and visualize your mood journey with beautiful gradients.",
+  keywords: "mood tracker, mental health, emotional wellness, journaling, mindfulness, self-care",
+  openGraph: {
+    title: "Mood Sanctuary - Track Your Emotional Journey",
+    description: "Capture your emotions in 3 words + 1 emoji. Beautiful, therapeutic, and insightful.",
+    type: "website",
+  },
+  viewport: "width=device-width, initial-scale=1, maximum-scale=1",
+  themeColor: "#7849ef",
 };
 
 export default function RootLayout({
@@ -32,3 +40,4 @@ export default function RootLayout({
     </html>
   );
 }
+
